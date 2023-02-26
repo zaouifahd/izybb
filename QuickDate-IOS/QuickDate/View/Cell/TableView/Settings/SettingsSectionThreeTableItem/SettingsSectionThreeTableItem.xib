@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.otf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SettingsSectionThreeTableItem" rowHeight="56" id="90x-Jz-iKY" customClass="SettingsSectionThreeTableItem" customModule="QuickDate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="90x-Jz-iKY" id="Zu2-sG-yp7">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show when you're active" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKS-Af-Spm">
+                        <rect key="frame" x="20" y="15.5" width="317" height="25.5"/>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                        <color key="textColor" red="0.074509803920000006" green="0.074509803920000006" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dog-vF-Q4e">
+                        <rect key="frame" x="345" y="12.5" width="51" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="49" id="1lV-WG-Ide"/>
+                        </constraints>
+                        <color key="onTintColor" systemColor="systemGray2Color"/>
+                        <color key="thumbTintColor" red="0.41568627450000001" green="0.1450980392" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <action selector="switchPressed:" destination="90x-Jz-iKY" eventType="valueChanged" id="Zdb-12-Adk"/>
+                        </connections>
+                    </switch>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Dog-vF-Q4e" firstAttribute="centerY" secondItem="Zu2-sG-yp7" secondAttribute="centerY" id="1rv-Ha-abx"/>
+                    <constraint firstItem="RKS-Af-Spm" firstAttribute="leading" secondItem="Zu2-sG-yp7" secondAttribute="leadingMargin" id="MKK-Og-bMW"/>
+                    <constraint firstAttribute="trailing" secondItem="Dog-vF-Q4e" secondAttribute="trailing" constant="20" symbolic="YES" id="MiV-DD-H3Z"/>
+                    <constraint firstItem="Dog-vF-Q4e" firstAttribute="leading" secondItem="RKS-Af-Spm" secondAttribute="trailing" constant="8" id="TQ4-ZE-N5z"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Dog-vF-Q4e" secondAttribute="trailing" id="e05-G5-V3P"/>
+                    <constraint firstItem="RKS-Af-Spm" firstAttribute="top" secondItem="Zu2-sG-yp7" secondAttribute="top" constant="15.5" id="mit-Mf-ge4"/>
+                    <constraint firstAttribute="bottom" secondItem="RKS-Af-Spm" secondAttribute="bottom" constant="15" id="zBd-PR-4R5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="switcher" destination="Dog-vF-Q4e" id="e0T-kp-eZ1"/>
+                <outlet property="titleLabel" destination="RKS-Af-Spm" id="BOe-Oq-CMR"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="176"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

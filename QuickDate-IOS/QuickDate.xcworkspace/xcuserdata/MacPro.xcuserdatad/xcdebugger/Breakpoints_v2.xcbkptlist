@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1B59E6B1-B064-44DF-8516-863AD83B583C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F66C17EA-ED87-4875-8CCE-688F2CB62FCB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickDate/Controller/Dashboard/DashboardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
+            landmarkName = "appendRandomUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1D3A154-4A60-49A4-9A6A-C421EA760060"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickDate/Controller/Credit/PayVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "payAuthorizeNetAcceptPayment()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F1D3A154-4A60-49A4-9A6A-C421EA760060 - 26c24fc31c1ceee0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickDate.PayVC.payAuthorizeNetAcceptPayment() -&gt; ()"
+                  moduleName = "QuickDate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Office/Sunscript/QuickDate/QuickDate-IOS/QuickDate/Controller/Credit/PayVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "3441">
+               </Location>
+               <Location
+                  uuid = "F1D3A154-4A60-49A4-9A6A-C421EA760060 - af013601884b6a2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in QuickDate.PayVC.payAuthorizeNetAcceptPayment() -&gt; ()"
+                  moduleName = "QuickDate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Office/Sunscript/QuickDate/QuickDate-IOS/QuickDate/Controller/Credit/PayVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8ED3C5A-6130-4EA0-91DD-D6FED7636490"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickDate/Controller/Credit/PayVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "payStipe(stripeToken:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5E0337A-61B7-46A5-ABE7-DC726FBC6692"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickDate/Managers/Others/PayStripeManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "payStripe(AccessToken:StripeToken:Paytype:Description:Price:completionBlock:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B5E0337A-61B7-46A5-ABE7-DC726FBC6692 - 579ed4b009dbe0b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickDate.PayStripeManager.payStripe(AccessToken: Swift.String, StripeToken: Swift.String, Paytype: Swift.String, Description: Swift.String, Price: Swift.Int, completionBlock: (Swift.Optional&lt;QuickDate.PayStripeModel.PayStripeSuccessModel&gt;, Swift.Optional&lt;QuickDate.BaseModel.sessionErrorModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "QuickDate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Office/Sunscript/QuickDate/QuickDate-IOS/QuickDate/Managers/Others/PayStripeManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "2443">
+               </Location>
+               <Location
+                  uuid = "B5E0337A-61B7-46A5-ABE7-DC726FBC6692 - 386618e9ea2a0404"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in QuickDate.PayStripeManager.payStripe(AccessToken: Swift.String, StripeToken: Swift.String, Paytype: Swift.String, Description: Swift.String, Price: Swift.Int, completionBlock: (Swift.Optional&lt;QuickDate.PayStripeModel.PayStripeSuccessModel&gt;, Swift.Optional&lt;QuickDate.BaseModel.sessionErrorModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "QuickDate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Office/Sunscript/QuickDate/QuickDate-IOS/QuickDate/Managers/Others/PayStripeManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "313">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CCBAAA69-18F5-46DB-B917-9D1789D72421"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickDate/Managers/Others/PayStripeManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "payStripe(AccessToken:StripeToken:Paytype:Description:Price:completionBlock:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7B57D78-95C3-496F-9A1C-3A8438B79663"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickDate/Controller/Authentication/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "466"
+            endingLineNumber = "466"
+            landmarkName = "setUpConfigures()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
